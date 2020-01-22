@@ -74,8 +74,23 @@ across the value of our data analysis and potential price predictions.
 
 REGRESSION MODELS
 
-Initial inputting of our data into a linear regression model using only single variables returnes r^2 values with little 
-to no use. This is due to the fact that without a significant input into the model, the volume of data is too low to make
-any kind of meanignful extrapolations. A guess could be made, but this would carry much less weight. As a result we made the
-decision to include numerous other variables in-keeping with our business model. Namely aspects of a property that made 
-it easier to purchase for a low price, then sell for a higher. 
+Overall, four regression models were built:
+
+
+The first model used all sought to identify the variables that most impact the price of the property. This model used the variables highlighted as having the greatest correlation with price in the Exploratory stage and included:
+a) sqft_living15
+b) bathrooms  
+c) grade
+This returned a R-squared of 0.46 with sqft_living15 contributing the greatest.
+
+
+The second model sought to answer the question: Which structural features make the largest impact on price? And included the variables bathrooms, yrs_since_renovation, and bedrooms.
+This returned a R-squared of 0.2 with bathrooms contributing the greatest.
+
+
+The third model sought to answer the question: How much impact does cosmetic condition have on price? And included the variables condition and yrs_since_renovation
+This returned a R-squared of only 0.02 and was therefore dismissed.
+
+
+The fourth model sought to answer the question: Are higher prices associated with larger properties, larger land or both? And included the variables sqft_living and sqft_lot
+This returned a R-squared of only 0.39 with sqft_living being the main contributor.
