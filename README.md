@@ -87,6 +87,8 @@ b) bathrooms
 
 
 c) grade
+
+
 This returned a R-squared of 0.46 with sqft_living15 contributing the greatest.
 
 
