@@ -78,8 +78,14 @@ Overall, four regression models were built:
 
 
 The first model used all sought to identify the variables that most impact the price of the property. This model used the variables highlighted as having the greatest correlation with price in the Exploratory stage and included:
+
+
 a) sqft_living15
+
+
 b) bathrooms  
+
+
 c) grade
 This returned a R-squared of 0.46 with sqft_living15 contributing the greatest.
 
